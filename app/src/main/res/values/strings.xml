@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyWeather</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="today">Today</string>
+    <string name="tmr">Tmr</string>
+    <string name="next_day">Next Day</string>
+    <string name="next_five_days">5-Days forecast</string>
+    <string name="sun_set_time">Sun Set</string>
+    <string name="sun_raise_time">Sun Raise</string>
+</resources>

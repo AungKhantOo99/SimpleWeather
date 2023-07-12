@@ -1,0 +1,20 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@drawable/baseline_arrow_right_24"
+        android:shortcutShortLabel="@string/next_day"
+        android:shortcutLongLabel="@string/next_day"
+       >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.testing.myweather"
+            android:targetClass="com.testing.myweather.MainActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>
